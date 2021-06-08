@@ -1,3 +1,3 @@
 // import RRSButton from "./button";
 
-export * from "./button";
+export * as default from "./button";
