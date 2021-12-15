@@ -2,7 +2,7 @@
   "name": "@monaco-ui/components",
   "version": "1.0.0",
   "private": true,
-  "main": "src/index.tsx",
+  "main": "core/index.js",
   "typings": "core/index.d.ts",
   "files": [
     "core"
