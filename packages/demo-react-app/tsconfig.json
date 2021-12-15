@@ -1,0 +1,14 @@
+{
+  "extends": "../../tsconfig.json",
+  "include": ["src"],
+  "compilerOptions": {
+    "noFallthroughCasesInSwitch": true,
+    "jsx": "react-jsx",
+    "outDir": "build",
+    "rootDir": "src",
+    "target": "ES2019",
+    "lib": ["dom", "ES2019"]
+  },
+  "references": [{ "path": "../components" }],
+  "exclude": ["node_modules", "build"]
+}

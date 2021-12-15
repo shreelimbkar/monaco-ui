@@ -1,0 +1,30 @@
+{
+  "name": "@monaco-ui/demo-react-app",
+  "version": "1.1.0",
+  "private": true,
+  "main": "core/index.tsx",
+  "types": "build/index.d.ts",
+  "files": [
+    "build"
+  ],
+  "dependencies": {
+    "@monaco-ui/components": "^1.0.0",
+    "@types/styled-components": "^5.1.10",
+    "@types/node": "^15.12.2",
+    "@types/react": "^17.0.11",
+    "@types/react-dom": "^17.0.7",
+    "customize-cra": "^1.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-scripts": "^4.0.3",
+    "styled-components": "^5.3.0",
+    "typescript": "^4.3.4"
+  },
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "clean": "rm -rf ./build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  }
+}

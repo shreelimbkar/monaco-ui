@@ -6,7 +6,7 @@ A collection of Reusuable react components
 
 #### Clone git repo
 
-    git clone git@github.com:randstadrisesmart/incredibles-ui.git
+    git clone https://github.com/shreelimbkar/monaco-ui.git
 
 #### Install dependencies
 
