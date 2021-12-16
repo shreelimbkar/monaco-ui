@@ -3,7 +3,7 @@ name: Monaco UI CI
 on:
   push:
     branches:
-      - 'master'
+      - 'main'
 
 jobs:
   build:
