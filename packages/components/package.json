@@ -2,15 +2,11 @@
   "name": "monaco-ui",
   "description": "A collection of React Components for future Web Applications.",
   "version": "1.0.2",
-  "main": "core/index.js",
+  "main": "src/index.tsx",
   "typings": "core/index.d.ts",
   "files": [
     "core"
   ],
-  "sideEffects": false,
-  "publishConfig": {
-    "access": "public"
-  },
   "scripts": {
     "build": "tsc -b",
     "clean": "rm -rf ./core && rm tsconfig.tsbuildinfo",
