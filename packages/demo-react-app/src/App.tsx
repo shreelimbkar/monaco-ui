@@ -7,7 +7,9 @@ const App = (): ReactElement => {
   return (
     <div className="App">
       <h1>List of React Components</h1>
-      <Button>Primary Button</Button>
+      <Button>Default Button</Button>
+      <Button color="primary">Primary Button</Button>
+      <Button color="secondary">Primary Button</Button>
     </div>
   );
 };
