@@ -4,7 +4,7 @@ import { brand, color, fontSize, weight, lineHeight } from '../tokens';
 import DefaultProps from '../types/ButtonProps';
 
 const ButtonStyles = styled.button<DefaultProps>`
-  border: 2px solid ${color.blue130};
+  border: 2px solid ${color.grey};
   border-radius: 40px;
   box-sizing: border-box;
   background-color: ${color.grey};

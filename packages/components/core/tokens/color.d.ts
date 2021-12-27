@@ -1,4 +1,8 @@
 export default color;
+/**
+ * Do not edit directly
+ * Generated on Wed, 22 Dec 2021 21:02:03 GMT
+ */
 declare const color: {
     'offWhite-50': string;
     'offWhite-30': string;

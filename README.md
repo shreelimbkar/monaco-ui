@@ -1,4 +1,4 @@
-<p style="text-align:center">
+<p align="center">
   <img src="./docs/public/images/logo.png" width="150" height="150" alt="Monaco-UI" />
 </p>
 
@@ -11,6 +11,12 @@
 &nbsp;
 
 Monaco UI is based on design principles. With a broad API and better developer friendliness, Developers may create customized component libraries, design systems, web apps, and more.
+
+## Documentation
+
+[https://shreelimbkar.github.io/monaco-ui/](https://shreelimbkar.github.io/monaco-ui/)
+
+## Installing Monaco UI
 
 This library is made up of a variety of components and utilities that you may add one at a time. Installing the monaco-ui package is all you need to do.
 
