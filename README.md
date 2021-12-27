@@ -1,25 +1,21 @@
-# monaco-ui
+<p style="text-align:center">
+  <img src="./docs/public/images/logo.png" width="150" height="150" alt="Monaco-UI" />
+</p>
 
-A collection of Reusuable react components
+<h1 align="center">Welcome to Monaco UI</h1>
 
-## Run Development Environment
+<p align="center">
+  <strong>The Monaco UI components library is an experimental project inspired by the styled system.</strong>
+</p>
 
-#### Clone git repo
+&nbsp;
 
-    git clone https://github.com/shreelimbkar/monaco-ui.git
+Monaco UI is based on design principles. With a broad API and better developer friendliness, Developers may create customized component libraries, design systems, web apps, and more.
 
-#### Install dependencies
+This library is made up of a variety of components and utilities that you may add one at a time. Installing the monaco-ui package is all you need to do.
 
-    yarn install
-
-#### Build all mono repos
-
-    yarn build
-
-#### Link (Components) to other react application
-
-    yarn bootstrap
-
-#### Start development server
-
-    yarn start
+```
+$ yarn add monaco-ui
+# or
+$ npm install --save monaco-ui
+```
