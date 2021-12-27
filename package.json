@@ -6,6 +6,7 @@
     "packages/*"
   ],
   "scripts": {
+    "copydocs": "cp -R packages/docs/.docz/dist/ docs",
     "docs": "cd packages/docs && yarn run docs",
     "docs:build": "cd packages/docs && yarn run docs:build",
     "bootstrap": "lerna bootstrap",
