@@ -4,10 +4,10 @@
  */
 
 const borderSize = {
-  s: "2px",
-  m: "3px",
-  l: "4px",
-  xs: "1px"
+  s: '2px',
+  m: '3px',
+  l: '4px',
+  xs: '1px',
 };
 
 export default borderSize;

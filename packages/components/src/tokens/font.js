@@ -5,7 +5,7 @@
 
 const font = {
   merriweather: '"Merriweather", sans-serif',
-  lato: '"Lato", sans-serif'
+  lato: '"Lato", sans-serif',
 };
 
 export default font;
