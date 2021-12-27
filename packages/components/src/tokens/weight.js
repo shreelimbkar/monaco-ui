@@ -10,7 +10,7 @@ const weight = {
   regular: 400,
   light: 300,
   bolditalic: 700,
-  lightitalic: 300
+  lightitalic: 300,
 };
 
 export default weight;

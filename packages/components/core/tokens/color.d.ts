@@ -1,21 +1,17 @@
 export default color;
-/**
- * Do not edit directly
- * Generated on Wed, 22 Dec 2021 21:02:03 GMT
- */
 declare const color: {
-    "offWhite-50": string;
-    "offWhite-30": string;
-    "offWhite-80": string;
-    "offWhite-105": string;
-    "offWhite-110": string;
-    "darkBlue-10": string;
-    "darkBlue-20": string;
-    "darkBlue-30": string;
-    "darkBlue-50": string;
-    "darkBlue-70": string;
-    "darkBlue-80": string;
-    "darkBlue-180": string;
+    'offWhite-50': string;
+    'offWhite-30': string;
+    'offWhite-80': string;
+    'offWhite-105': string;
+    'offWhite-110': string;
+    'darkBlue-10': string;
+    'darkBlue-20': string;
+    'darkBlue-30': string;
+    'darkBlue-50': string;
+    'darkBlue-70': string;
+    'darkBlue-80': string;
+    'darkBlue-180': string;
     positive10: string;
     positive: string;
     positive110: string;
