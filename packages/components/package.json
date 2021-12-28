@@ -33,8 +33,7 @@
   "peerDependencies": {
     "react": ">=16.8.6",
     "react-dom": ">=16.8.6",
-    "styled-components": "^5.3.0",
-    "styled-system": "^5.1.5"
+    "styled-components": "^5.3.0"
   },
   "author": "Shrivardhan Limbkar <limbkarshree@gmail.com>",
   "license": "MIT",
