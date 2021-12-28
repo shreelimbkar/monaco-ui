@@ -1,2 +1,3 @@
 import Button from './button';
-export { Button };
+import Box from './box';
+export { Button, Box };
