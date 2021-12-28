@@ -1,8 +1,8 @@
 {
   "name": "@shreelimbkar/monaco-ui",
   "description": "A collection of React Components for future Web Applications.",
-  "version": "1.0.2",
-  "main": "src/index.tsx",
+  "version": "1.0.3",
+  "main": "core/index.js",
   "typings": "core/index.d.ts",
   "files": [
     "core"
