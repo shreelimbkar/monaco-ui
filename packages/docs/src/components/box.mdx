@@ -1,0 +1,67 @@
+---
+name: Box
+menu: Components
+---
+
+import { Box } from 'monaco-ui/core';
+import { Playground, Props } from 'docz';
+
+#### Box
+
+A simple rectangular container just like div.
+
+Props for this component:
+
+<Props of={Box} />
+
+### Basic usage
+
+<Playground>
+  <Box borderColor="#999" borderWidth={1} borderStyle="solid" p={3}>
+    Hello
+  </Box>
+</Playground>
+
+### Flexbox
+
+Use Box to create flexbox layouts.
+
+<Playground>
+  <Box display="flex">
+    <Box p={3} borderColor="#999" borderWidth={1} borderStyle="solid">
+      1
+    </Box>
+    <Box flexGrow={1} p={3} borderColor="#999" borderWidth={1} borderStyle="solid">
+      2
+    </Box>
+    <Box p={3} borderColor="#999" borderWidth={1} borderStyle="solid">
+      3
+    </Box>
+  </Box>
+</Playground>
+
+### Grid
+
+Use Box to create grid layouts.
+
+<Playground>
+  <Box display="grid" gridTemplateColumns="1fr 1fr" gridGap={3}>
+    <Box p={3} borderColor="#999" borderWidth={1} borderStyle="solid">
+      1
+    </Box>
+    <Box p={3} borderColor="#999" borderWidth={1} borderStyle="solid">
+      2
+    </Box>
+    <Box p={3} borderColor="#999" borderWidth={1} borderStyle="solid">
+      3
+    </Box>
+  </Box>
+</Playground>
+
+### Component props
+
+| Prop name | Description                                                                         | Type                                     |
+| --------- | ----------------------------------------------------------------------------------- | ---------------------------------------- |
+| sx        | Style overrides to apply to the component.                                          | SystemStyleObject                        |
+| as        | The underlying element to render — either a HTML element name or a React component. | React.ElementType                        |
+| ref       | A ref to the element rendered by this component.                                    | React.RefObject&lt;HTMLAnchorElement&gt; |

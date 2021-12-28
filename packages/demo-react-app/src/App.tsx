@@ -1,7 +1,8 @@
 import React, { ReactElement } from 'react';
 import './App.css';
 
-import { Button, Box } from 'monaco-ui/core';
+import Button from 'monaco-ui/core/button';
+import Box from 'monaco-ui/core/box';
 
 const App = (): ReactElement => {
   return (

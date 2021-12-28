@@ -5,19 +5,41 @@ menu: Components
 
 import { Button } from 'monaco-ui/core';
 import { Playground, Props } from 'docz';
+import t from 'prop-types';
 
-# Button
+### Button
+
+Actions are performed with the button. The business logic is triggered when a button is pressed.
 
 Props for this component:
 
 <Props of={Button} />
 
-Example:
+### Basic usage
 
 <Playground>
   <Button>Default Button</Button>
+</Playground>
+
+### With different colors
+
+<Playground>
   <Button color="primary">Primary Button</Button>
   <Button color="secondary">Secondary Button</Button>
+</Playground>
+
+### With different variation
+
+<Playground>
   <Button disabled={true}>Disabled Button</Button>
   <Button variant="text">Variant Text</Button>
 </Playground>
+
+### Component props
+
+| Prop name | Description                                 | Type    |
+| --------- | ------------------------------------------- | ------- |
+| as        | sets the HTML tag for the component         | String  |
+| color     | sets color of the button primary, secondary | String  |
+| variant   | sets type of button text                    | String  |
+| disabled  | Disabled state of button                    | boolean |
