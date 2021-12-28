@@ -24,7 +24,18 @@
         "hidden": false,
         "slug": "src-index",
         "menu": "",
-        "headings": []
+        "headings": [
+          {
+            "slug": "documentation",
+            "depth": 2,
+            "value": "Documentation"
+          },
+          {
+            "slug": "installing-monaco-ui",
+            "depth": 2,
+            "value": "Installing Monaco UI"
+          }
+        ]
       }
     },
     {

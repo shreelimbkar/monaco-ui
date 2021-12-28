@@ -46,6 +46,8 @@ const config = {
         o: null,
         open: null,
         'open-browser': null,
+        port: 3301,
+        p: 3301,
         root:
           '/Users/shrivardhanlimbkar/Personal/git-repos/monaco-ui/packages/docs/.docz',
         base: '/',
@@ -62,8 +64,6 @@ const config = {
         title: 'Monaco Ui Documentation',
         description: 'My awesome app using docz',
         host: 'localhost',
-        port: 3000,
-        p: 3000,
         separator: '-',
         paths: {
           root:
