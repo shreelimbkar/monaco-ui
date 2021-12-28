@@ -20,7 +20,7 @@ const App = (): ReactElement => {
         <h2>Box</h2>
         <Box
           color={'#000'}
-          bg={'#ccc'}
+          bg={'tomato'}
           display="flex"
           height="100px"
           justifyContent={'center'}
