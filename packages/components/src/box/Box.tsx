@@ -1,28 +1,16 @@
 import React from 'react';
-import styled from 'styled-components';
-import { background, border, color, flexbox, grid, layout, position, shadow, space, typography } from 'styled-system';
 
-// import { BoxStyles } from './BoxStyles';
+import BoxProps from '../types/BoxProps';
+import { BoxStyles } from './BoxStyles';
 
-const Box = styled.div(
-  {
-    boxSizing: 'border-box',
-    minWidth: 0,
-  },
-  background,
-  border,
-  color,
-  flexbox,
-  grid,
-  layout,
-  position,
-  shadow,
-  space,
-  typography,
-);
-
-// const Box: React.FC = ({ children }) => {
-//   return <BoxStyles>{children}</BoxStyles>;
-// };
+const Box: React.FC<BoxProps> = (props) => {
+  const { children } = props;
+  const ref = React.useRef(null);
+  return (
+    <BoxStyles ref={ref} {...props}>
+      {children}
+    </BoxStyles>
+  );
+};
 
 export default Box;

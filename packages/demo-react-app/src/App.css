@@ -6,3 +6,7 @@ div {
   display: block;
   padding: 10px 10px;
 }
+
+.test {
+  background-color: aquamarine;
+}

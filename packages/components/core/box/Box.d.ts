@@ -1,2 +1,4 @@
-declare const Box: import("styled-components").StyledComponent<"div", any, {}, never>;
+import React from 'react';
+import BoxProps from '../types/BoxProps';
+declare const Box: React.FC<BoxProps>;
 export default Box;
