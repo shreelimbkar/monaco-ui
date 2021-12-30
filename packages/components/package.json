@@ -1,5 +1,5 @@
 {
-  "name": "monaco-ui",
+  "name": "@shreelimbkar/monaco-ui",
   "description": "A collection of React Components for future Web Applications.",
   "version": "1.0.3",
   "main": "core/index.js",
@@ -7,6 +7,14 @@
   "files": [
     "core"
   ],
+  "scripts": {
+    "build": "tsc -b",
+    "clean": "rm -rf ./core && rm tsconfig.tsbuildinfo",
+    "test": "jest --env=jsdom --passWithNoTests",
+    "docz:dev": "docz dev",
+    "docz:build": "docz build",
+    "docz:serve": "docz build && docz serve"
+  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/shreelimbkar/monaco-ui.git"

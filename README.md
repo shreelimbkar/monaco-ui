@@ -25,3 +25,29 @@ $ yarn add monaco-ui
 # or
 $ npm install --save monaco-ui
 ```
+
+## Documentation
+
+Check out our [documentation website](https://monaco-ui-docs.netlify.app/).
+
+## Development environment
+
+Clone the repo locally:
+
+```
+$ git clone https://github.com/shreelimbkar/monaco-ui.git
+$ cd monaco-ui
+
+# Install dependencies
+$ yarn install
+
+# Build all monorepo packages
+$ yarn run build
+
+# Bootstrap package - In the current repo, bootstrap the packages. Installing all their dependencies and linking any cross-dependencies.
+$ yarn run bootstrap
+
+# Start development server
+$ yarn run start
+
+```
