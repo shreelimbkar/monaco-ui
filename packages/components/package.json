@@ -1,8 +1,8 @@
 {
-  "name": "@shreelimbkar/monaco-ui",
+  "name": "monaco-ui",
   "description": "A collection of React Components for future Web Applications.",
   "version": "1.0.3",
-  "main": "core/index.js",
+  "main": "src/index.tsx",
   "typings": "core/index.d.ts",
   "files": [
     "core"
@@ -40,7 +40,7 @@
   "bugs": {
     "url": "https://github.com/shreelimbkar/monaco-ui/issues"
   },
-  "homepage": "https://github.com/shreelimbkar/monaco-ui#readme",
+  "homepage": "https://github.com/shreelimbkar/monaco-ui/",
   "devDependencies": {
     "react": "^17.0.1",
     "react-dom": "^17.0.2",
