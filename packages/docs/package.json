@@ -14,6 +14,7 @@
     "docs:build": "docz build",
     "docs:serve": "docz serve --port=5501"
   },
+  "homepage": ".",
   "dependencies": {
     "docz": "^2.3.1",
     "react": "^17.0.2",

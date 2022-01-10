@@ -7,6 +7,10 @@ div {
   padding: 10px 10px;
 }
 
+div button {
+  margin: 5px;
+}
+
 .test {
   background-color: aquamarine;
 }

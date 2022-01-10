@@ -1,10 +1,12 @@
-import React, { ReactElement } from 'react';
+import React, { ReactElement, useState } from 'react';
 import './App.css';
 
-import Button from 'monaco-ui/core/button';
-import Box from 'monaco-ui/core/box';
+import { Button } from 'monaco-ui/core';
+import { Box, Label, InputField } from 'monaco-ui/core';
 
 const App = (): ReactElement => {
+  const [initialVal, setInitialVal] = useState('');
+
   return (
     <div className="App">
       <h1>List of Monaco-UI React Components</h1>
@@ -30,6 +32,21 @@ const App = (): ReactElement => {
         >
           Hello World
         </Box>
+      </div>
+      <div>
+        <h2>Label</h2>
+        <Label width={1 / 2}>Monaco-UI Label</Label>
+      </div>
+      <div>
+        <h2>Input Field</h2>
+        <InputField
+          placeholder="Basic Input Field"
+          name="username"
+          value={initialVal}
+          onChange={(e) => {
+            setInitialVal(e.target.value);
+          }}
+        />
       </div>
     </div>
   );

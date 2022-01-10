@@ -133,6 +133,58 @@
           }
         ]
       }
+    },
+    {
+      "key": "src/components/inputField.mdx",
+      "value": {
+        "name": "InputField",
+        "menu": "Components",
+        "id": "d05574040a247cd4dad3244605fefa05",
+        "filepath": "src/components/inputField.mdx",
+        "fullpath": "/Users/shrivardhanlimbkar/Personal/git-repos/monaco-ui/packages/docs/src/components/inputField.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-components-input-field",
+        "route": "/src-components-input-field",
+        "headings": [
+          {
+            "slug": "inputfield",
+            "depth": 4,
+            "value": "InputField"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 3,
+            "value": "Basic usage"
+          }
+        ]
+      }
+    },
+    {
+      "key": "src/components/label.mdx",
+      "value": {
+        "name": "Label",
+        "menu": "Components",
+        "id": "d2a883a93a17ae095a5cda1695b72a2c",
+        "filepath": "src/components/label.mdx",
+        "fullpath": "/Users/shrivardhanlimbkar/Personal/git-repos/monaco-ui/packages/docs/src/components/label.mdx",
+        "link": "",
+        "hidden": false,
+        "slug": "src-components-label",
+        "route": "/src-components-label",
+        "headings": [
+          {
+            "slug": "label",
+            "depth": 4,
+            "value": "Label"
+          },
+          {
+            "slug": "basic-usage",
+            "depth": 3,
+            "value": "Basic usage"
+          }
+        ]
+      }
     }
   ],
   "props": []

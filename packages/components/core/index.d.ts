@@ -1,3 +1,5 @@
 import Button from './button';
 import Box from './box';
-export { Button, Box };
+import Label from './label';
+import InputField from './inputField';
+export { Button, Box, Label, InputField };
